@@ -1,0 +1,104 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #000;
+	font-family: "Lato", sans-serif;
+}
+
+.outer{
+  text-align: right;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+  max-width:400px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: left;
+	padding:10px;
+}
+
+.navbar{
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	color: #00857c;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 10px;
+}
+.logo{
+  max-height: 100px;
+  justify-content: flex-start;
+}
+
+.logo_img{
+  width: 100%;
+	display:inline-block;
+}
+.contact{
+  justify-content: flex-end;
+  padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+  border: 3px solid #00857c;
+  border-radius: 5px;
+  background-color: #00857c;
+	color: white;
+	font-size: 24px;
+}
+.tile1{
+	background-image: url(img/boston.jpg);
+	background-repeat:no-repeat;
+	background-size:85%;
+	background-color: white;
+	width: 100%;
+	height:600px;
+	vertical-align: bottom;
+}
+.tile2{
+	background-image: url(img/cambridge.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:600px;
+}
+.tile3{
+	background-image: url(img/kenilworth.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:600px;
+}
+.tile4{
+	background-image: url(img/london.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:600px;
+}
+.tile5{
+	background-image: url(img/sanfrancisco.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:600px;
+}
+.tile6{
+	background-image: url(img/uppergwynedd.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:600px;
+}
+
+.h1{
+	font-weight: 700;
+	font-size: 20px;
+}
