@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+      -webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(0deg);
+      filter: drop-shadow(10px 10px 5px #006400) hue-rotate(0deg);
+     }
+
+    .my_filter:hover{
+      animation-name: filteranim;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+    }
+
+     @keyframes filteranim{
+
+			 	10%{
+				 -webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(36deg);
+				 filter: drop-shadow(10px 10px 5px #006400) hue-rotate(36deg);
+				}
+
+				20%{
+				 -webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(72deg);
+				 filter: drop-shadow(10px 10px 5px #006400) hue-rotate(72deg);
+				}
+
+				30%{
+				 -webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(108deg);
+				 filter: drop-shadow(10px 10px 5px #006400) hue-rotate(108deg);
+				}
+
+				40%{
+				 -webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(144deg);
+				 filter: drop-shadow(10px 10px 5px #006400) hue-rotate(144deg);
+				}
+
+				50%{
+					-webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(180deg);
+	        filter: drop-shadow(10px 10px 5px #006400) hue-rotate(180deg);
+	       }
+
+				 60%{
+					-webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(216deg);
+					filter: drop-shadow(10px 10px 5px #006400) hue-rotate(216deg);
+				 }
+
+				 70%{
+ 					-webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(252deg);
+ 	        filter: drop-shadow(10px 10px 5px #006400) hue-rotate(252deg);
+ 	       }
+
+				 80%{
+					-webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(288deg);
+					filter: drop-shadow(10px 10px 5px #006400) hue-rotate(288deg);
+				 }
+
+				 90%{
+					-webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(324deg);
+					filter: drop-shadow(10px 10px 5px #006400) hue-rotate(324deg);
+				 }
+
+	      100%{
+					-webkit-filter: drop-shadow(10px 10px 5px #006400) hue-rotate(360deg);
+	        filter: drop-shadow(10px 10px 5px #006400) hue-rotate(360deg);
+	       }
+
+     }
+	</style>
+</head>
+
+<body>
+
+<img class="my_filter" src="img/tree.jpeg" alt="Christmas tree">
+
+</body>
+</html>
